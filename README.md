@@ -15,6 +15,7 @@ The main features of the OFM are:
 - 40x Objective with a achromatic 50mm lens
 
 ## Build
+The customization of the printed parts can be found in the [fork of the OFM](https://github.com/pbrugugnoli/OpenFlexure-Microscope)
   <table border="0">
    <tr>
       <td><b style="font-size:30px">Printing picture</b></td>
@@ -67,6 +68,8 @@ A small board (perforated board) is used to connect the Arduino Nano to the step
 - Both the automatic white balancing (AWB) and the lens shading correction (LSC) was incorrect for PiCamera V1.3
 - After some reverse engineering,  2 pull requests were created to address and appropriated manage AWB and LSC for the Picamera V1.3 in PiCameraX and OFM Server programs
 - [My contribution to the community](https://openflexure.discourse.group/t/rpi-1b-picamera-v1-3-auto-calibration-solved/1486/6)
+- [PiCameraX fork](https://github.com/pbrugugnoli/picamerax) with the pull request for the LSC correction (change already incorporated at version 24.3.21).
+- [Openflexure Microscope Server](https://gitlab.com/pbrugugnoli/openflexure-microscope-server), with the pull request for the AWB correction.
 
 ## Demo Video - OFM at work 
 - [![Demo](https://github.com/pbrugugnoli/PEB-OpenFlexure-Microscope/blob/main/images/OFM%20-%20upright%20objective.jpg)](https://youtu.be/tEzmvFiI1ls)
