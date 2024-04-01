@@ -1,0 +1,4 @@
+# Custom Board
+
+This simple custom board (perforated board) connects the Arduino Nano with the stepper motor and LED drivers.
+The arduino code is customized for the used pins to control de stepper motors, to provide PWM signal to control the light intensity (and on/off state) and in the future to provide feedback about the position of the motors.
