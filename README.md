@@ -50,6 +50,19 @@ Some pictures about the current implementation:
    </tr>
   </table>
 
+## Electronics
+A small board (perforated board) is used to connect the Arduino Nano to the stepper motor drivers and led drivers, whilst the firmware code was adjusted to support both used header pins and to provide the PWM signal for light intensity control
+  <table border="0">
+   <tr>
+      <td><b style="font-size:30px">Board Schematics</b></td>
+      <td><b style="font-size:30px">Implementation</b></td>
+   </tr>
+   <tr>
+      <td><img src="https://github.com/pbrugugnoli/PEB-OpenFlexure-Microscope/blob/main/images/OFM%20-%20Custom%20board.png" width="300"/></td>
+      <td><img src="https://github.com/pbrugugnoli/PEB-OpenFlexure-Microscope/blob/main/images/OFM%20-%20Electronics.jpg" width="300"/></td>
+   </tr>
+  </table>
+
 ## Software
 - Both the automatic white balancing (AWB) and the lens shading correction (LSC) was incorrect for PiCamera V1.3
 - After some reverse engineering,  2 pull requests were created to address and appropriated manage AWB and LSC for the Picamera V1.3 in PiCameraX and OFM Server programs
